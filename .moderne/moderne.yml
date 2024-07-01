@@ -1,0 +1,12 @@
+build:
+  partitions:
+    - name: app-1
+      steps:
+        - type: gradle
+          inclusion: |-
+            app-1/*
+    - name: app-2
+      steps:
+        - type: gradle
+          inclusion: |-
+            app-2/*

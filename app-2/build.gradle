@@ -28,11 +28,5 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-tasks.register("explode"){
-    doLast {
-        throw new RuntimeException("explosion")
-    }
-    mustRunAfter("jar")
-}
+throw new RuntimeException("explosion")
 
-assemble.dependsOn("explode")

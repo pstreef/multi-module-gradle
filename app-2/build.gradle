@@ -29,4 +29,3 @@ tasks.named('test') {
 }
 
 throw new RuntimeException("explosion")
-

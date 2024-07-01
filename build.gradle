@@ -1,0 +1,6 @@
+plugins {
+    id 'base'
+}
+
+group = 'io.moderne'
+version = '0.0.1-SNAPSHOT'

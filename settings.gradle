@@ -1,0 +1,4 @@
+rootProject.name = 'MultiModuleGradle'
+
+include "app-1"
+include "app-2"
